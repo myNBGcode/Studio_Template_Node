@@ -8,7 +8,7 @@ var request = require("request");
 router.get('/myAccounts', function(req, res, next) {
  var str='';
 var options = { method: 'GET',
-  url: 'https://apis.nbg.gr/public/sandbox/obp.account.sandbox/v1/obp/my/accounts',
+  url: 'https://apis.nbg.gr/public/sandbox/obp.account.sandbox/v1.1/obp/my/accounts',
   headers:
    {accept: 'text/json',
    request_id: 'REPLACE_THIS_VALUE',

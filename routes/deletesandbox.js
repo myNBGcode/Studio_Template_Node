@@ -8,7 +8,7 @@ var request = require("request");
 router.get('/deletesandbox', function(req, res, next) {
     var str='';
 var options = { method: 'DELETE',
-  url: 'https://apis.nbg.gr/public/sandbox/obp.account.sandbox/v1/sandbox/REPLACE_THIS_VALUE1',
+  url: 'https://apis.nbg.gr/public/sandbox/obp.account.sandbox/v1.1/sandbox/REPLACE_THIS_VALUE1',
   headers: { accept: 'text/json',
   'content-type': 'text/json',
   request_id: 'REPLACE_THIS_VALUE',

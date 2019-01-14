@@ -8,7 +8,7 @@ var request = require("request");
 router.get('/createsandbox', function(req, res, next) {
     var str='';
 var options = { method: 'POST',
-  url: 'https://apis.nbg.gr/public/sandbox/obp.account.sandbox/v1/sandbox',
+  url: 'https://apis.nbg.gr/public/sandbox/obp.account.sandbox/v1.1/sandbox',
   headers: { accept: 'text/json',
    'content-type': 'text/json',
    request_id: 'REPLACE_THIS_VALUE',
